@@ -5,12 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6bfe77e1-4ef0-4b96-8d81-989b57341035" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/database/src/main/java/org/example/dao/entities/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/src/main/java/org/example/dao/entities/UserContactInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/src/main/java/org/example/dao/entities/UserRoles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/src/main/java/org/example/dao/entities/analysis/Biochemical.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/src/main/java/org/example/dao/entities/analysis/OAK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/src/main/resources/dbProperties.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a071b632-5bef-421d-913a-f5824345dd0a.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/a071b632-5bef-421d-913a-f5824345dd0a.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a071b632-5bef-421d-913a-f5824345dd0a/storage_v2/_src_/database/my_lab.eijWwA/schema/information_schema.FNRwLQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/a071b632-5bef-421d-913a-f5824345dd0a/storage_v2/_src_/database/my_lab.eijWwA/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a071b632-5bef-421d-913a-f5824345dd0a/storage_v2/_src_/database/my_lab.eijWwA/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/a071b632-5bef-421d-913a-f5824345dd0a/storage_v2/_src_/database/my_lab.eijWwA/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a071b632-5bef-421d-913a-f5824345dd0a/storage_v2/_src_/database/my_lab.eijWwA/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/a071b632-5bef-421d-913a-f5824345dd0a/storage_v2/_src_/database/my_lab.eijWwA/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/src/main/java/org/example/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/database/src/main/java/org/example/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/src/main/java/org/example/dao/entities/UserRoles.java" beforeDir="false" afterPath="$PROJECT_DIR$/database/src/main/java/org/example/dao/entities/UserRoles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/src/test/java/SomeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/database/src/test/java/SomeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +75,13 @@
       <recent name="org.example.dao.entities.analysis" />
       <recent name="org.example.dao.entities" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="console.sql" type="DatabaseScript" editBeforeRun="true" nameIsGenerated="true">
+      <script-file value="$APPLICATION_CONFIG_DIR$/consoles/db/a071b632-5bef-421d-913a-f5824345dd0a/console.sql" />
+      <script-mode>FILE</script-mode>
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>

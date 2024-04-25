@@ -8,6 +8,13 @@ public enum UserRoles {
 
     DOCTOR(3);
 
+    private Integer id;
+
+    public Integer getId() {
+        return id;
+    }
+
     UserRoles(Integer id) {
+        this.id = id;
     }
 }
