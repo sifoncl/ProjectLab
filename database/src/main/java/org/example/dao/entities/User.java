@@ -128,6 +128,20 @@ public class User {
         return Objects.hash(id, firstName, secondName, thirdName, sex, birthDate, job, userRoles, userContactInfo);
     }
 
+    @Override
+    public String toString() {
+        return "User{" +
+               "id=" + id +
+               ", firstName='" + firstName + '\'' +
+               ", secondName='" + secondName + '\'' +
+               ", thirdName='" + thirdName + '\'' +
+               ", sex='" + sex + '\'' +
+               ", birthDate=" + birthDate +
+               ", job='" + job + '\'' +
+               ", userRoles=" + userRoles +
+               ", userContactInfo=" + userContactInfo +
+               '}';
+    }
 
     public static final class UserBuilder {
         private Integer id;

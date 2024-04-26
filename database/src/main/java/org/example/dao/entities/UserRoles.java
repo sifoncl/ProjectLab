@@ -13,8 +13,16 @@ public enum UserRoles {
     public Integer getId() {
         return id;
     }
-
     UserRoles(Integer id) {
         this.id = id;
+    }
+
+    public static UserRoles getRoleById (Integer id){
+        for (UserRoles ur : UserRoles.values()){
+            if(ur.getId()==id){
+                return ur;
+            }
+        }
+        return null;
     }
 }

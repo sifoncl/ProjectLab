@@ -32,6 +32,7 @@ public class SomeTest {
                 .build();
 
         System.out.println(UserRoles.ADMIN.getId());
+        System.out.println(UserDao.saveUserById(3));
 
         UserDao.createUser(user);
     }
