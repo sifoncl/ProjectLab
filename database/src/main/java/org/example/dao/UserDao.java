@@ -98,7 +98,7 @@ where user_id = ?
             statement.setInt(1, id);
             ResultSet rs = statement.executeQuery();
             rs.next();
-            return userMaper(rs);
+            return userMapper(rs);
 
         } catch (SQLException e) {
             System.out.println(e);
@@ -107,7 +107,12 @@ where user_id = ?
 
     }
 
-    private static User userMaper (ResultSet rs) throws SQLException {
+    public static void deleteUserById (Integer id){
+        String sqlUser = "delete from user where id =?";
+
+    }
+
+    private static User userMapper (ResultSet rs) throws SQLException {
         return
         User.UserBuilder.anUser().
                 withId(rs.getInt("id")).
@@ -122,5 +127,8 @@ where user_id = ?
                 withBirthDate(rs.getDate("births_date").toLocalDate())
                 .withUserRoles(UserRoles.getRoleById(rs.getInt("user_role_id"))).build();
     }
+
+
+
 
 }
