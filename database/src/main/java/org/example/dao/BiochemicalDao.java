@@ -16,7 +16,7 @@ public class BiochemicalDao {
                  ast, creatinin, mochevina,
                   bilirubin_obsh, bilirubin_priamoi,
                    bilirubin_nepriamoi
-                   , cholestirin, glucose from biochemical_results
+                   , cholestirin, glucose,date_time_get_material,date_time_added_result from biochemical_results
                    where id = ?
                 """;
 
@@ -24,8 +24,9 @@ public class BiochemicalDao {
             PreparedStatement statement = connection.prepareStatement(sql);
 
             statement.setInt(1, id);
-
-            return biochemicalMapper(statement.executeQuery());
+            ResultSet rs = statement.executeQuery();
+            rs.next();
+            return biochemicalMapper(rs);
 
 
         } catch (SQLException e) {
@@ -48,8 +49,10 @@ public class BiochemicalDao {
                 .withBilirubinNepriamoi(rs.getDouble("bilirubin_nepriamoi"))
                 .withCholesterin(rs.getDouble("cholestirin"))
                 .withGlucose(rs.getDouble("glucose"))
-                .withAddedResult()
-                .withGetMatirial()
+                .withAddedResult(rs.getDate("date_time_added_result") == null ? null :
+                        rs.getDate("date_time_added_result").toLocalDate().atTime(0, 0))
+                .withGetMatirial(rs.getDate("date_time_get_material") == null ? null :
+                        rs.getDate("date_time_get_material").toLocalDate().atTime(0, 0))
                 .build();
     }
 }

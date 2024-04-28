@@ -5,9 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6bfe77e1-4ef0-4b96-8d81-989b57341035" name="Changes" comment="ss">
-      <change afterPath="$PROJECT_DIR$/database/src/main/java/org/example/dao/BiochemicalDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0cbf4719-58de-48b8-90a1-f8a354757da0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0cbf4719-58de-48b8-90a1-f8a354757da0/storage_v2/_src_/database/postgres.edMnLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0cbf4719-58de-48b8-90a1-f8a354757da0/storage_v2/_src_/database/postgres.edMnLQ/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0cbf4719-58de-48b8-90a1-f8a354757da0/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0cbf4719-58de-48b8-90a1-f8a354757da0/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a071b632-5bef-421d-913a-f5824345dd0a.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/a071b632-5bef-421d-913a-f5824345dd0a.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/src/main/java/org/example/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/database/src/main/java/org/example/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/src/main/java/org/example/dao/BiochemicalDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/database/src/main/java/org/example/dao/BiochemicalDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/src/main/resources/dbProperties.properties" beforeDir="false" afterPath="$PROJECT_DIR$/database/src/main/resources/dbProperties.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/src/test/java/SomeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/database/src/test/java/SomeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +33,20 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "sifoncl"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="3a6d6c44-7f9f-4c7e-9197-4a22d0fe351a" />
+        <option name="url" value="https://github.com/sifoncl/ProjectLab.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
