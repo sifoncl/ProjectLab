@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6bfe77e1-4ef0-4b96-8d81-989b57341035" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/database/src/main/java/org/example/dao/entities/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/src/main/java/org/example/dao/entities/UserContactInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/src/main/java/org/example/dao/entities/UserRoles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/src/main/java/org/example/dao/entities/analysis/Biochemical.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/src/main/java/org/example/dao/entities/analysis/OAK.java" afterDir="false" />
+    <list default="true" id="6bfe77e1-4ef0-4b96-8d81-989b57341035" name="Changes" comment="ss">
+      <change afterPath="$PROJECT_DIR$/database/src/main/java/org/example/dao/BiochemicalDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/src/main/java/org/example/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/database/src/main/java/org/example/dao/UserDao.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,10 +70,29 @@
       <recent name="org.example.dao.entities" />
     </key>
   </component>
+  <component name="RunManager" selected="Application.SomeTest">
+    <configuration name="SomeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SomeTest" />
+      <module name="database" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="console.sql" type="DatabaseScript" editBeforeRun="true" nameIsGenerated="true">
+      <script-file value="$APPLICATION_CONFIG_DIR$/consoles/db/a071b632-5bef-421d-913a-f5824345dd0a/console.sql" />
+      <script-mode>FILE</script-mode>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SomeTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
+        <option value="jdk-21.0.1-openjdk-21.0.1-4caba194b151-23eed401" />
       </set>
     </attachedChunks>
   </component>
@@ -95,11 +111,33 @@
       <workItem from="1713902816044" duration="3727000" />
       <workItem from="1713969219788" duration="7000" />
       <workItem from="1713991001947" duration="3691000" />
+      <workItem from="1714113294074" duration="9099000" />
     </task>
+    <task id="LOCAL-00001" summary="ss">
+      <option name="closed" value="true" />
+      <created>1714076477246</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1714076477246</updated>
+    </task>
+    <task id="LOCAL-00002" summary="ss">
+      <option name="closed" value="true" />
+      <created>1714117803715</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1714117803715</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ss" />
+    <option name="LAST_COMMIT_MESSAGE" value="ss" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
