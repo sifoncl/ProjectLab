@@ -3,10 +3,7 @@ package org.example.dao;
 import org.example.dao.entities.analysis.Biochemical;
 import org.example.dbconnecrion.DbConnectionManager;
 
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
+import java.sql.*;
 
 public class BiochemicalDao {
 
@@ -35,6 +32,66 @@ public class BiochemicalDao {
         return null;
     }
 
+    public static Biochemical addNewResult(Biochemical bc) {
+        String sql = """
+                insert into biochemical_results 
+                (id_user, date_time_get_material, date_time_added_result, ALT, AST, creatinin, mochevina, bilirubin_obsh,
+                 bilirubin_priamoi, bilirubin_nepriamoi, cholestirin, glucose)
+                values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                """;
+        try (Connection connection = DbConnectionManager.get()) {
+            connection.setAutoCommit(false);
+            PreparedStatement statement = connection.prepareStatement(sql, Statement.RETURN_GENERATED_KEYS);
+
+            statement.setInt(1, bc.getUserId());
+            statement.setDate(2, Date.valueOf(bc.getGetMatirial().toLocalDate()));
+            statement.setDate(3, Date.valueOf(bc.getAddedResult().toLocalDate()));
+            statement.setDouble(4, bc.getAlt());
+            statement.setDouble(5, bc.getAst());
+            statement.setDouble(6, bc.getCreatinin());
+            statement.setDouble(7, bc.getMochevina());
+            statement.setDouble(8, bc.getBilirubinObsh());
+            statement.setDouble(9, bc.getBilirubinPriamoi());
+            statement.setDouble(10, bc.getBilirubinNepriamoi());
+            statement.setDouble(11, bc.getCholesterin());
+            statement.setDouble(12, bc.getGlucose());
+
+          boolean a =  statement.execute();
+
+            ResultSet rs = statement.getGeneratedKeys();
+
+            Integer id = null;
+
+            if (rs.next()) {
+                System.out.println("сюда зашел" + a);
+                id = rs.getInt("id");
+            }
+
+
+            System.out.println("id анализа " + id);
+
+            bc.setId(id);
+            connection.commit();
+            return bc;
+
+        } catch (SQLException e) {
+            System.out.println(e);
+        }
+        System.out.println("что то пошло не так");
+        return bc;
+    }
+
+
+    public static void deleteById(Integer id) {
+        String sql = "delete from biochemical_results where id = ?";
+        try (Connection connection = DbConnectionManager.get()) {
+            PreparedStatement statement = connection.prepareStatement(sql);
+            statement.setInt(1, id);
+            statement.execute();
+        } catch (SQLException e) {
+            System.out.println(e);
+        }
+    }
 
     private static Biochemical biochemicalMapper(ResultSet rs) throws SQLException {
         return Biochemical.BiochemicalBuilder.aBiochemical()

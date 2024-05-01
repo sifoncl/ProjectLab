@@ -5,17 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6bfe77e1-4ef0-4b96-8d81-989b57341035" name="Changes" comment="ss">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0cbf4719-58de-48b8-90a1-f8a354757da0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0cbf4719-58de-48b8-90a1-f8a354757da0/storage_v2/_src_/database/postgres.edMnLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0cbf4719-58de-48b8-90a1-f8a354757da0/storage_v2/_src_/database/postgres.edMnLQ/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0cbf4719-58de-48b8-90a1-f8a354757da0/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0cbf4719-58de-48b8-90a1-f8a354757da0/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a071b632-5bef-421d-913a-f5824345dd0a.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/a071b632-5bef-421d-913a-f5824345dd0a.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sqls/My_lab.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1c375cc8-e72f-431a-9a42-2ae25046946d.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1c375cc8-e72f-431a-9a42-2ae25046946d.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1c375cc8-e72f-431a-9a42-2ae25046946d/storage_v2/_src_/database/my_lab.eijWwA/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1c375cc8-e72f-431a-9a42-2ae25046946d/storage_v2/_src_/database/my_lab.eijWwA/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a071b632-5bef-421d-913a-f5824345dd0a.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a071b632-5bef-421d-913a-f5824345dd0a/storage_v2/_src_/database/my_lab.eijWwA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a071b632-5bef-421d-913a-f5824345dd0a/storage_v2/_src_/database/my_lab.eijWwA/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a071b632-5bef-421d-913a-f5824345dd0a/storage_v2/_src_/database/my_lab.eijWwA/schema/information_schema.FNRwLQ.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a071b632-5bef-421d-913a-f5824345dd0a/storage_v2/_src_/database/my_lab.eijWwA/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a071b632-5bef-421d-913a-f5824345dd0a/storage_v2/_src_/database/my_lab.eijWwA/schema/pg_catalog.0S1ZNQ.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a071b632-5bef-421d-913a-f5824345dd0a/storage_v2/_src_/database/my_lab.eijWwA/schema/public.abK9xQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a071b632-5bef-421d-913a-f5824345dd0a/storage_v2/_src_/database/postgres.edMnLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a071b632-5bef-421d-913a-f5824345dd0a/storage_v2/_src_/database/postgres.edMnLQ/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a071b632-5bef-421d-913a-f5824345dd0a/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a071b632-5bef-421d-913a-f5824345dd0a/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/src/main/java/org/example/dao/BiochemicalDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/database/src/main/java/org/example/dao/BiochemicalDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/src/main/resources/dbProperties.properties" beforeDir="false" afterPath="$PROJECT_DIR$/database/src/main/resources/dbProperties.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/src/test/java/SomeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/database/src/test/java/SomeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,12 +39,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "sifoncl"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;sifoncl&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -59,35 +64,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.SomeTest.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;21&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/virus/IdeaProjects/ProjectLab&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/virus/IdeaProjects/ProjectLab/web/src/main/java/org/example/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.general&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.SomeTest.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "21",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/virus/IdeaProjects/ProjectLab/Sqls",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/virus/IdeaProjects/ProjectLab/web/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.general",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;postgresql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\virus\IdeaProjects\ProjectLab\Sqls" />
+    </key>
     <key name="CreateBuilderDialog.RecentsKey">
       <recent name="org.example.dao.entities.analysis" />
       <recent name="org.example.dao.entities" />
@@ -115,7 +123,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-21.0.1-openjdk-21.0.1-4caba194b151-23eed401" />
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
       </set>
     </attachedChunks>
   </component>
@@ -135,6 +143,8 @@
       <workItem from="1713969219788" duration="7000" />
       <workItem from="1713991001947" duration="3691000" />
       <workItem from="1714113294074" duration="9099000" />
+      <workItem from="1714496320649" duration="600000" />
+      <workItem from="1714560467315" duration="6284000" />
     </task>
     <task id="LOCAL-00001" summary="ss">
       <option name="closed" value="true" />
@@ -152,7 +162,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714117803715</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="ss">
+      <option name="closed" value="true" />
+      <created>1714309337639</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1714309337639</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
