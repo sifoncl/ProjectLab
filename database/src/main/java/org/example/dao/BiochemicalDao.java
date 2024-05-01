@@ -37,7 +37,7 @@ public class BiochemicalDao {
                 insert into biochemical_results 
                 (id_user, date_time_get_material, date_time_added_result, ALT, AST, creatinin, mochevina, bilirubin_obsh,
                  bilirubin_priamoi, bilirubin_nepriamoi, cholestirin, glucose)
-                values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);
                 """;
         try (Connection connection = DbConnectionManager.get()) {
             connection.setAutoCommit(false);

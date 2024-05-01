@@ -41,13 +41,13 @@ public class SomeTest {
 
         //      UserDao.createUser(user);
 
-        Biochemical bc = BiochemicalDao.getById(1);
+        Biochemical bc = BiochemicalDao.getById(3);
 
         Biochemical bc2 = BiochemicalDao.addNewResult(bc);
 
         System.out.println(bc2);
 
-        BiochemicalDao.deleteById(bc.getId());
+     // BiochemicalDao.deleteById(bc.getId());
 
         System.out.println(bc2.getId());
 
