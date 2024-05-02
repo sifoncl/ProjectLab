@@ -173,7 +173,27 @@ from users
          join names n on users.id = n.id
          join info i2 on users.id = i2.id;
 
-insert into biochemical_results
-(id_user, date_time_get_material, date_time_added_result, ALT, AST, creatinin, mochevina, bilirubin_obsh,
- bilirubin_priamoi, bilirubin_nepriamoi, cholestirin, glucose)
-values ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?;
+truncate table biochemical_results;
+
+
+
+select address,
+       telephone,
+       email,
+       first_name,
+       second_name,
+       third_name,
+       sex,
+       births_date,
+       job,
+       user_role_id,
+       ur.id,
+       ur.name
+from users
+         join contact_info ci on users.id = ci.id
+         join names n on users.id = n.id
+         join info i2 on users.id = i2.id
+         left join user_user_roles uur on users.id = uur.user_id
+         left outer join user_roles ur on uur.user_role_id = ur.id
+where user_id = 4;
+
