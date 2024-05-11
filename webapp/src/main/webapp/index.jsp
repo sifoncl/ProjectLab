@@ -2,7 +2,7 @@
 <html>
 <body>
 <h2>Найти пользователя</h2>
-<form action="userinfo" method="get">
+<form action="finduser" method="get">
     ID: <input type="text" name="id">
     <input type="submit" value="Найти">
 </form>

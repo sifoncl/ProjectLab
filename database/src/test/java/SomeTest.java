@@ -1,5 +1,6 @@
 import org.example.dao.BiochemicalDao;
 import org.example.dao.OAKDao;
+import org.example.dao.UserDao;
 import org.example.dao.entities.analysis.Biochemical;
 import org.example.dao.entities.analysis.OAK;
 import org.example.dbconnecrion.DbConnectionManager;
@@ -79,11 +80,13 @@ public class SomeTest {
 //            System.out.println(bc);
 //        }
 
-        ArrayList<OAK> res = OAKDao.saveAllUserOAKResults(6);
+//        ArrayList<OAK> res = OAKDao.saveAllUserOAKResults(6);
+//
+//        for (OAK oak: res){
+//            System.out.println(oak);
+//        }
 
-        for (OAK oak: res){
-            System.out.println(oak);
-        }
+        System.out.println(UserDao.getById(2));
     }
 
 

@@ -100,7 +100,6 @@ public class UserDao {
             statement.setInt(1, id);
             ResultSet rs = statement.executeQuery();
             rs.next();
-            System.out.println(rs.getString(1));
             return userMapper(rs);
 
         } catch (SQLException e) {
