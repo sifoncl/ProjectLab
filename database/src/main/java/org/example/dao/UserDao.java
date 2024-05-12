@@ -83,7 +83,7 @@ public class UserDao {
                        births_date,
                        job,
                        user_role_id,
-                       ur.id,
+                       users.id,
                        ur.name
                 from users
                          join contact_info ci on users.id = ci.id
@@ -165,7 +165,6 @@ public class UserDao {
             String updNames = "UPDATE names set first_name=?, second_name=?, third_name=? where id = ?";
             PreparedStatement statement = connection.prepareStatement(updNames);
 
-
             statement.setString(1, user.getFirstName());
             statement.setString(2, user.getSecondName());
             statement.setString(3, user.getThirdName());
@@ -174,7 +173,6 @@ public class UserDao {
 
             String updInfo = "UPDATE  info set sex=?, births_date=?, job=? where id = ?";
             statement = connection.prepareStatement(updInfo);
-
 
             statement.setString(1, user.getSex());
             statement.setObject(2, user.getBirthDate());

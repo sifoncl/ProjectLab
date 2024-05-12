@@ -10,7 +10,7 @@ import org.example.dto.UserDto;
 public class UserService {
     public static UserDto getUserById(Integer id){
        User u = UserDao.getById(id);
-        return UserDto.builder().name(u.getFirstName()+" "+u.getSecondName()+" "+u.getThirdName())
+        return UserDto.builder().name(u.getFirstName()+" "+u.getThirdName()+" "+u.getSecondName())
                 .id(u.getId())
                 .email(u.getUserContactInfo().getEmail())
                 .address(u.getUserContactInfo().getAddress())

@@ -6,8 +6,13 @@
 </head>
 <body>
 <div>
-    Size ${requestScope.userDt.getId()}
-
+    <br>Имя: ${sessionScope.userDto.getName()}
+    <br>Номер: телефона ${sessionScope.userDto.getNumber()}
+    <br>Адрес: ${sessionScope.userDto.getAddress()}
+    <br>Email: ${sessionScope.userDto.getEmail()}
+    <br>Дата рождения: ${sessionScope.userDto.getBirthsDate()}
+    <br> <a href="/biochemicalfinder">Найти все биохимические анализы</a>
+    <br> <a href="/oakfinder">Найти все Общие анализы крови</a>
 </div>
 </body>
 </html>

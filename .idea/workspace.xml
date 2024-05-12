@@ -10,19 +10,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6bfe77e1-4ef0-4b96-8d81-989b57341035" name="Changes" comment="ss">
-      <change afterPath="$PROJECT_DIR$/services/src/main/test/java/SomeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/src/main/java/servlets/FindUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/src/main/webapp/userinfo.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/src/test/java/SomeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/src/main/java/servlets/BcFinder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/src/main/java/servlets/OAKFinder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/src/main/webapp/bclist.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/src/main/webapp/oaklist.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1c375cc8-e72f-431a-9a42-2ae25046946d.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1c375cc8-e72f-431a-9a42-2ae25046946d.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1c375cc8-e72f-431a-9a42-2ae25046946d/storage_v2/_src_/database/my_lab.eijWwA/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1c375cc8-e72f-431a-9a42-2ae25046946d/storage_v2/_src_/database/my_lab.eijWwA/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1c375cc8-e72f-431a-9a42-2ae25046946d/storage_v2/_src_/database/my_lab.eijWwA/schema/pg_catalog.0S1ZNQ.zip" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1c375cc8-e72f-431a-9a42-2ae25046946d/storage_v2/_src_/database/my_lab.eijWwA/schema/pg_catalog.0S1ZNQ.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1c375cc8-e72f-431a-9a42-2ae25046946d/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1c375cc8-e72f-431a-9a42-2ae25046946d/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/src/main/java/org/example/dao/OAKDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/database/src/main/java/org/example/dao/OAKDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/src/main/java/org/example/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/database/src/main/java/org/example/dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/src/main/java/org/example/dbconnecrion/DbConnectionManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/database/src/main/java/org/example/dbconnecrion/DbConnectionManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/src/main/resources/dbProperties.properties" beforeDir="false" afterPath="$PROJECT_DIR$/database/src/main/resources/dbProperties.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/src/test/java/SomeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/database/src/test/java/SomeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/src/main/java/org/example/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/src/main/java/org/example/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/src/main/java/org/example/services/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/src/main/test/java/SomeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/src/main/java/SomeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/src/main/java/servlets/FindUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/src/main/java/servlets/FindUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/src/main/webapp/userinfo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/src/main/webapp/userinfo.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,8 +41,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Jsp File" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -79,11 +87,13 @@
     "Application.SomeTest.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "Maven.ProjectLab [clean].executor": "Run",
+    "Maven.ProjectLab [install].executor": "Run",
     "Maven.ProjectLab [package].executor": "Run",
     "Maven.webapp [package].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Tomcat Server.TomCat.executor": "Run",
     "Tomcat Server.Unnamed.executor": "Run",
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "21",
@@ -95,10 +105,10 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "C:/Users/virus/IdeaProjects/ProjectLab/web/src/main/java/org/example/Main.java",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "MavenSettings",
+    "settings.editor.selected.configurable": "File.Encoding",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -123,7 +133,7 @@
       <recent name="org.example.dao" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Unnamed">
+  <component name="RunManager" selected="Tomcat Server.TomCat">
     <configuration name="SomeTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SomeTest" />
       <module name="services" />
@@ -143,7 +153,7 @@
       <script-mode>FILE</script-mode>
       <method v="2" />
     </configuration>
-    <configuration name="Unnamed" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.1.19" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+    <configuration name="TomCat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.1.19" ALTERNATIVE_JRE_ENABLED="false">
       <option name="OPEN_IN_BROWSER" value="false" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
@@ -226,29 +236,26 @@
       </ConfigurationWrapper>
       <method v="2">
         <option name="Make" enabled="true" />
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="webapp:war exploded" />
-        </option>
+        <option name="BuildArtifacts" enabled="false" />
       </method>
     </configuration>
     <list>
       <item itemvalue="Application.SomeTest" />
       <item itemvalue="Application.SomeTest (1)" />
       <item itemvalue="Database Script.console.sql" />
-      <item itemvalue="Tomcat Server.Unnamed" />
+      <item itemvalue="Tomcat Server.TomCat" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SomeTest (1)" />
         <item itemvalue="Application.SomeTest" />
+        <item itemvalue="Application.SomeTest (1)" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-21.0.1-openjdk-21.0.1-4caba194b151-23eed401" />
-        <option value="jdk-21.0.2-graalvm-jdk-21.0.2-4caba194b151-eba82c24" />
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
       </set>
     </attachedChunks>
   </component>
@@ -276,6 +283,7 @@
       <workItem from="1715254070246" duration="8870000" />
       <workItem from="1715428763227" duration="2155000" />
       <workItem from="1715431405187" duration="8406000" />
+      <workItem from="1715540581441" duration="7713000" />
     </task>
     <task id="LOCAL-00001" summary="ss">
       <option name="closed" value="true" />
@@ -355,5 +363,9 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

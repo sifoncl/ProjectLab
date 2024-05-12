@@ -1,6 +1,7 @@
 import org.example.dao.BiochemicalDao;
 import org.example.dao.OAKDao;
 import org.example.dao.UserDao;
+import org.example.dao.entities.User;
 import org.example.dao.entities.analysis.Biochemical;
 import org.example.dao.entities.analysis.OAK;
 import org.example.dbconnecrion.DbConnectionManager;
@@ -13,8 +14,8 @@ public class SomeTest {
 
     public static void main(String[] args) throws SQLException {
 
-        Connection connection = DbConnectionManager.get();
-        System.out.println(connection.getTransactionIsolation());
+//        Connection connection = DbConnectionManager.get();
+//        System.out.println(connection.getTransactionIsolation());
 //        LocalDate birthsDate = LocalDate.of(2002,12,24);
 
 //        UserContactInfo uCi= UserContactInfo.UserContactInfoBuilder.anUserContactInfo()
@@ -59,9 +60,9 @@ public class SomeTest {
 //
 //        Biochemical bc2 = BiochemicalDao.updateById(bc, bc.getId());
 
-//        User user = UserDao.getById(1);
-//
-//        System.out.println(user);
+        User user = UserDao.getById(4);
+
+        System.out.println( user.getFirstName());
 //
 //        user.setFirstName("Петя");
 //
@@ -86,7 +87,7 @@ public class SomeTest {
 //            System.out.println(oak);
 //        }
 
-        System.out.println(UserDao.getById(2));
+
     }
 
 

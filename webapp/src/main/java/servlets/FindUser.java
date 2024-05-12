@@ -18,9 +18,7 @@ public class FindUser extends HttpServlet {
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         Integer id = Integer.valueOf(req.getParameter("id"));
         UserDto userDto =UserService.getUserById(id);
-        System.out.println(userDto);
-        req.getSession().setAttribute("userDt",userDto);
-
+        req.getSession().setAttribute("userDto",userDto);
         req.getRequestDispatcher("/userinfo.jsp").forward(req, resp);
     }
 }

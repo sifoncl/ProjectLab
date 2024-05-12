@@ -54,6 +54,16 @@
             <version>2.0</version>
             <scope>provided</scope>
         </dependency>
+        <dependency>
+            <groupId>jakarta.servlet.jsp.jstl</groupId>
+            <artifactId>jakarta.servlet.jsp.jstl-api</artifactId>
+            <version>3.0.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.glassfish.web</groupId>
+            <artifactId>jakarta.servlet.jsp.jstl</artifactId>
+            <version>3.0.1</version>
+        </dependency>
     </dependencies>
 
     <build>
@@ -80,7 +90,7 @@
                     <artifactId>maven-war-plugin</artifactId>
                     <version>3.2.2</version>
                     <configuration>
-                        <outputDirectory>D:\TomCat\webapps</outputDirectory>
+                        <outputDirectory>G:\TomCat\webapps</outputDirectory>
                     </configuration>
                 </plugin>
                 <plugin>

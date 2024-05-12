@@ -238,11 +238,6 @@ public class OAKDao {
         return null;
     }
 
-
-
-
-
-
     private static OAK OAKMapper(ResultSet rs) throws SQLException {
         return OAK.OAKBuilder.anOAK()
                 .withId(rs.getInt("id"))
